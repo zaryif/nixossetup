@@ -1,0 +1,10 @@
+# Nix outputs
+result
+result-*
+
+# OS & Editor Files
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/

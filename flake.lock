@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "antigravity": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1786090101,
+        "narHash": "sha256-aA+YMox6GcjA2CylliuQXeIbHs7d7hisSOvTpkqx17w=",
+        "type": "tarball",
+        "url": "https://github.com/Hy4ri/antigravity-flake/archive/main.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/Hy4ri/antigravity-flake/archive/main.tar.gz"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1785967620,
+        "narHash": "sha256-IItrdb7Puk05RqOBWZYFC5X6Wl1sJmCfh5MWVHw5iMM=",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz"
+      }
+    },
+    "root": {
+      "inputs": {
+        "antigravity": "antigravity",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
