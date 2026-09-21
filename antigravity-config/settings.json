@@ -1,0 +1,17 @@
+{
+  "allowNonWorkspaceAccess": true,
+  "artifactReviewPolicy": "always-proceed",
+  "mcpServers": {
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@latest"
+      ]
+    }
+  },
+  "toolPermission": "always-proceed",
+  "trustedWorkspaces": [
+    "/home/zaryif"
+  ]
+}
